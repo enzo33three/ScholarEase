@@ -18,6 +18,7 @@ async function scrape(link) {
 
       if (linkText.includes("scholarship") || linkText.includes("fellowship")) {
         const linkObj = { title: linkText, link: link };
+        console.log(linkObj);
         scholarshipsLinks.add(linkObj);
       }
     });

@@ -3,7 +3,7 @@ const getSaveRelevantData = require("./getSaveRelevantData");
 
 const main = async () => {
   // func 1
-  // await getSaveGoogleLinks();
+  await getSaveGoogleLinks();
 
   console.log("Saved the links");
   // func 2
